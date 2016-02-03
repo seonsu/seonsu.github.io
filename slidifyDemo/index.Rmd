@@ -40,3 +40,6 @@ The mtcars dataset has 32 entries with 11 columns. The mileage (mpg) variation s
 ## Regression Example
 
 Sample Regression
+```{r simple-plot, fig.height = 6, fig.align = 'center', message = F}
+qplot(wt, mpg, data = mtcars)
+```
